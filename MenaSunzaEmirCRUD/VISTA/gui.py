@@ -33,9 +33,9 @@ class GUI2:
             self.window.destroy()
         self.crearVentana("Ventana Esperar")
 
-        agregar_image = ctk.CTkImage(Image.open("./VISTA/Agregar.jpeg"), size=(426, 500))
-        imprimir_image = ctk.CTkImage(Image.open("./VISTA/Imprimir.jpeg"), size=(426, 500))
-        eliminar_image = ctk.CTkImage(Image.open("./VISTA/Eliminar.jpeg"), size=(426, 500))
+        agregar_image = ctk.CTkImage(Image.open("./MenaSunzaEmirCRUD/VISTA/Agregar.jpeg"), size=(426, 500))
+        imprimir_image = ctk.CTkImage(Image.open("./MenaSunzaEmirCRUD/VISTA/Imprimir.jpeg"), size=(426, 500))
+        eliminar_image = ctk.CTkImage(Image.open("./MenaSunzaEmirCRUD/VISTA/Eliminar.jpeg"), size=(426, 500))
 
         botonImprimir = ctk.CTkButton(master=self.contentFrame, image=imprimir_image,fg_color="#731F7A", bg_color="transparent", hover_color="#6B9BCF",command=self.banco.peticionImprimir, text="", corner_radius=0)
         botonImprimir.pack(side="left", padx=0)

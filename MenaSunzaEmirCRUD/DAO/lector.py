@@ -12,7 +12,7 @@ class Lector():
     
     def leerArchivo(self):
         try:
-            archivo = open("./DAO/BaseDatos.txt", "rt", encoding="utf-8")
+            archivo = open("./MenaSunzaEmirCRUD/DAO/BaseDatos.txt", "rt", encoding="utf-8")
             for linea in archivo:
                 self.__arregloLinea.append(linea.strip())  # Utilizar strip() para eliminar los espacios en blanco y el salto de línea
             archivo.close()
