@@ -4,7 +4,7 @@ class Banco:
     def __init__(self,GUI):
         #Estado inicial del programa
         self.controlador=ControladorDatos()
-        self.infoObjetos=[]
+        #self.infoObjetos=[]
         self.GUI = GUI 
 
     #ESTABLECER LOS ESTADOS
