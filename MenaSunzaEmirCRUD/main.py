@@ -1,4 +1,4 @@
-from MODELO.banco import Banco
+from CONTROL.banco import Banco
 from VISTA.gui import GUI2
 
 #NOTA

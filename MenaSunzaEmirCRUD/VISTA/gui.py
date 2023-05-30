@@ -1,6 +1,6 @@
 import customtkinter as ctk
 from PIL import ImageTk, Image
-from MODELO.banco import Banco
+from CONTROL.banco import Banco
 from MODELO.cuenta import Cuenta
 from MODELO.cliente import Cliente
 
